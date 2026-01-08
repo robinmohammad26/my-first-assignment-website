@@ -120,7 +120,7 @@
 .note-content{
     width: 71%;
     max-width: 1600px;
-    margin: 40px auto;
+    margin: 120px auto;
     text-align: center;
 }
 .note-content h1{
@@ -165,4 +165,81 @@
     font-size: 16px;
     font-weight: 300;
     color: #627382;
+}
+
+/* Baring section design */
+.barin-conten{
+    width: 70%;
+    max-width: 1600px;
+    margin: 80px auto;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.barin-conten .barin-img img{
+    max-width: 600px;
+}
+.barin-conten .barin-con{
+    padding-right: 180px;
+}
+.barin-conten .barin-con h4{
+    color: #469165;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.barin-conten .barin-con h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.barin-conten .barin-con p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 50px;
+}
+.barin-conten .barin-con .barin-list li{
+    list-style: none;
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 18px;
+    font-weight: 400;
+}
+.barin-conten .barin-con .barin-list li i{
+    color: #30B868;
+}
+
+/* Ready to think area design */
+.ready-think{
+    width: 71%;
+    max-width: 1600px;
+    background-color: #F7F6F2;
+    margin: 50px auto;
+    text-align: center;
+    padding: 80px 385px;
+}
+.ready-think h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 25px;
+}
+.ready-think p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #627382;
+    margin-bottom: 25px;
+}
+.ready-think span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #627382;
+    display: block;
+    margin-top: 15px;
+}
+.ready-think .btn-style i{
+    font-size: 11px;
 }
