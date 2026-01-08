@@ -243,3 +243,45 @@
 .ready-think .btn-style i{
     font-size: 11px;
 }
+
+/* Footer section design */
+footer{
+    background-color: #001931;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer-cont{
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.footer-cont .social-icon h3{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer-cont .social-icon ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-cont .social-icon ul li a i{
+    color: #ffffff;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F7F6F2;
+    margin-bottom: 20px;
+}
+footer hr{
+    width: 70%;
+    max-width: 1600px;
+    margin: 20px auto;
+}
